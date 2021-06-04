@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateAuthKey generates a hash key 1`] = `"Somekind of Auth PUBLIC_KEY:3kYjJ/5T6inVx+3zh9Sk/LBVSqd5XUh7vhTrLgxTNH+gwZ+TqoFopzIQsd/HUF5SiYkUhJzc/sgJ65lFeRAQ8w=="`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getEnv doesnt throw errors if required is turned off 1`] = `
+Object {
+  "headerPrefix": "Somekind of Auth",
+  "privateKey": "undefined",
+  "publicKey": "undefined",
+}
+`;
+
+exports[`getEnv gets the environment variables 1`] = `
+Object {
+  "headerPrefix": "Somekind of Auth",
+  "privateKey": "PRIVATE_KEY",
+  "publicKey": "PUBLIC_KEY",
+}
+`;
+
+exports[`getEnv throws errors if required env fields are not present 1`] = `
+"Missing value for required field 'privateKey'/'PRIVATE_KEY'
+Missing value for required field 'publicKey'/'PUBLIC_KEY'"
+`;

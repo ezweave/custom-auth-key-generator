@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`readConfigFile reads a valid config file and parses what is there 1`] = `
+Object {
+  "headerPrefix": "Prefix value",
+  "privateKey": "MIIBVAIB=",
+  "publicKey": "MFwwDQYJK==",
+}
+`;
+
+exports[`readConfigFile throws errors if the file isnt yaml 1`] = `
+"Missing value for required field 'headerPrefix'/'HEADER_PREFIX'
+Missing value for required field 'privateKey'/'PRIVATE_KEY'
+Missing value for required field 'publicKey'/'PUBLIC_KEY'"
+`;
+
+exports[`readConfigFile throws errors if values are missing 1`] = `
+"Missing value for required field 'headerPrefix'/'HEADER_PREFIX'
+Missing value for required field 'privateKey'/'PRIVATE_KEY'"
+`;

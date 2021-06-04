@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buildKey builds a key 1`] = `"Somekind of Auth PUBLIC_KEY:AY/lhu5MpnkWksvFfoPtMLq/RkD3aBHGY0ZDL3OOWMAhHBgPkUEf1covCSrPIrYR7UE/Pys+V0EGpBxhS7/Odg=="`;

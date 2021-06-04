@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`processArgs buildErrorArrayForMissingArgs returns an array of missing arg errors 1`] = `
+Array [
+  "Missing value for required argument, publicKey",
+  "Missing value for required argument, headerPrefix",
+]
+`;
+
+exports[`processArgs throwErrorIfArgsAreCompleteOtherwiseReturnArgs returns true if all args are present 1`] = `
+Object {
+  "headerPrefix": "prefix",
+  "path": "/foo",
+  "privateKey": "private",
+  "publicKey": "public",
+}
+`;
+
+exports[`processArgs throwErrorIfArgsAreCompleteOtherwiseReturnArgs throws an error if anything is missing 1`] = `
+"Missing arguments: 
+	 Missing value for required argument, path
+	Missing value for required argument, privateKey
+	Missing value for required argument, publicKey
+	Missing value for required argument, headerPrefix"
+`;
+
+exports[`processArgs throws an error if no path is present 1`] = `
+"Missing arguments: 
+	 Missing value for required argument, path"
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseArgs parses avaialable args 1`] = `
+Object {
+  "configFile": "something.yml",
+  "headerPrefix": "something",
+  "path": "foo/foo/bar",
+  "privateKey": "adfadsfasdfasdf",
+  "publicKey": "jljjjjjjj",
+}
+`;
