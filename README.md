@@ -4,11 +4,63 @@ Generates a custom hash key, for systems that don't use the standard `Bearer tok
 
 ## Table of Contents
 
+* [Development](#development)
 * [Usage](#usage)
 * [Command Line](#command-line)
 * [As A Module](#as-a-module)
 * [Global Command Line Usage](#global-command-line-usage) 
 * [YAML Configuration](#yaml-configuration)
+
+
+## Development
+
+To run locally, as you would with a [command line](#command-line) install:
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:ezweave/custom-auth-key-generator.git
+```
+
+2. Install dependencies:
+
+Via `yarn`:
+
+```bash
+yarn
+```
+
+Via `npm`:
+
+```bash
+npm i
+```
+
+3. Run with any of the supported configurations ([`.env`, arguments, or `.yml`](#global-command-line-usage)) replacing the `/encoded/string` with
+whatever you use for encoding (in my use this was the relative path of the `url`)/
+
+`yarn`:
+
+```bash
+yarn dev -p /encoded/string 
+```
+
+`npm`:
+
+```bash
+npm run dev -p /encoded/string
+```
+
+You can run the tests simply by running:
+
+```bash
+yarn test
+```
+
+```bash
+npm test
+```
+
 
 ## Usage
 
