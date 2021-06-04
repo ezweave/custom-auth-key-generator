@@ -78,13 +78,13 @@ There are two ways to use this package:
 To install from the command line via `npm`:
 
 ```bash
-npm install -g @ezweave/custom-authkey-generator
+npm install -g @ezweave/custom-auth-key-generator
 ```
 
 And via `yarn`:
 
 ```bash
-yarn global @ezweave/custom-authkey-generator
+yarn global @ezweave/custom-auth-key-generator
 ```
 
 
@@ -96,13 +96,13 @@ yarn global @ezweave/custom-authkey-generator
 If you need this in a project simply install via `npm`:
 
 ```bash
-npm -i @ezweave/custom-authkey-generator
+npm -i @ezweave/custom-auth-key-generator
 ```
 
 And via `yarn`:
 
 ```bash
-yarn add @ezweave/custom-authkey-generator
+yarn add @ezweave/custom-auth-key-generator
 ```
 
 
