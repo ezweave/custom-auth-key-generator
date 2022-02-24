@@ -3,8 +3,8 @@
 exports[`readConfigFile reads a valid config file and parses what is there 1`] = `
 Object {
   "headerPrefix": "Prefix value",
-  "privateKey": "MIIBVAIB=",
-  "publicKey": "MFwwDQYJK==",
+  "privateKey": "XXXXX=",
+  "publicKey": "XXXXX==",
 }
 `;
 
